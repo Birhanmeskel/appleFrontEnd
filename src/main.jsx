@@ -1,4 +1,3 @@
-import { StrictMode } from "react";
 import { createRoot } from "react-dom/client";
 import "./commonResource/css/bootstrap.css";
 import "./commonResource/css/styles.css";

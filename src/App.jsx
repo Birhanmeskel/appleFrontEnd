@@ -1,5 +1,3 @@
-import react from "react";
-
 import "../CSS/bootstrap.css";
 import { Routes, Route } from "react-router";
 import Mac from "./Pages/Mac";
@@ -18,7 +16,6 @@ function App() {
           <Route path="/mac" element={<Mac />} />
           <Route path="/Iphone" element={<Iphone />} />
           <Route path="Iphone/:productID" element={<ProductPages />} />
-
           <Route path="*" element={<Four04 />} />
         </Route>
       </Routes>
