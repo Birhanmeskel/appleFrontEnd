@@ -18,7 +18,7 @@ function Home() {
       <FourthSection />
       <FifthSection />
       <SixthSection />
-      {/* <YoutubeVideos/> */}
+      <YoutubeVideos/>
     </>
   );
 }
